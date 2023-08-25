@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Sign Up Form</title>
+  </head>
+  <body>
+    <main>
+      <div class="main-container">
+        <div class="container">
+          <div class="left-container">
+            <div class="frosted">
+              <h1>The <span class="odin">Odin</span> Project</h1>
+            </div>
+          </div>
+          <div class="right-container">
+            <div class="info">
+              <p class="text">
+                <span class="title">Sign up <em>now</em> to get started</span>
+                <br /><br />
+                This is not a real online service! You need something like this
+                in your life to help you realize your deepest dreams.
+                <br /><br />
+                You know what to do
+              </p>
+            </div>
+            <form action="" method="POST" class="form">
+              <div class="form-field-container">
+                <div class="input-group">
+                  <label for="first-name">First Name</label>
+                  <input type="text" name="first-name" id="first-name" />
+                </div>
+                <div class="input-group">
+                  <label for="last-name">Last Name</label>
+                  <input type="text" name="last-name" id="last-name" />
+                </div>
+              </div>
+              <div class="form-field-container">
+                <div class="input-group">
+                  <label for="email">Email</label>
+                  <input type="email" name="email" id="email" />
+                </div>
+                <div class="input-group">
+                  <label for="phone-number">Phone Number</label>
+                  <input type="number" name="phone-number" id="phone-number" />
+                </div>
+              </div>
+              <div class="form-field-container">
+                <div class="input-group">
+                  <label for="password">Password</label>
+                  <input type="password" name="password" id="password" />
+                </div>
+                <div class="input-group">
+                  <label for="password-confirm">Confirm Password</label>
+                  <input
+                    type="password"
+                    name="password-confirm"
+                    id="password-confirm"
+                  />
+                </div>
+              </div>
+            </form>
+            <div>
+              <button type="submit">Create Account</button>
+              <p class="text">
+                Already have an account?
+                <a href="https://www.theodinproject.com/" class="hyperlink"
+                  >Log in</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
